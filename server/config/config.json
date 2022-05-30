@@ -1,11 +1,10 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "root",
-    "database": "dumbgram",
+    "username": "root",
+    "password": null,
+    "database": "course-express-b34-integration",
     "host": "localhost",
-    "port": "5432",
-    "dialect": "postgres"
+    "dialect": "mysql"
   },
   "test": {
     "username": "root",
