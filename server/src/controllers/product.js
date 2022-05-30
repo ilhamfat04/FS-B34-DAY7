@@ -104,7 +104,7 @@ exports.getProduct = async (req, res) => {
 exports.addProduct = async (req, res) => {
   try {
     let { categoryId } = req.body;
-
+    console.log(req.user);
     if (categoryId) {
       categoryId = categoryId.split(',');
     }
